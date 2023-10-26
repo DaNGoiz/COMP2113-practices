@@ -1,0 +1,4 @@
+apple orange orange
+pineapple apple         orange
+
+orange
