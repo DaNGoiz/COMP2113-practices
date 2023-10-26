@@ -6,7 +6,11 @@ int main() {
     int num;
     cin >> num;
 
-    double oneOverR = 0;
+    if (num <= 0) {
+        cout << "0";
+    }
+    else {
+        double oneOverR = 0;
 
     for (int i = 0; i < num; i++) {
         double r;
@@ -20,6 +24,8 @@ int main() {
 
     cout << setprecision(5);
     cout << R << endl;
+    }
+    
 
     return 0;
 }
