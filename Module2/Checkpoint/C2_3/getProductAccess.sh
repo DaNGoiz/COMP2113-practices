@@ -1,4 +1,3 @@
 #!/bin/bash
 
-raw="`grep \"/products/" "$1"`"
-echo $raw
+echo "`grep \"/products/" "$1" | cut -f 1,4 | sort | uniq`"
