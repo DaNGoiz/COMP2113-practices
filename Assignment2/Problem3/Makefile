@@ -5,3 +5,5 @@ main3: quadratic.o main3.o
 
 clean:
 	rm -f main3 quadratic.o main3.o
+
+.PHONY: clean

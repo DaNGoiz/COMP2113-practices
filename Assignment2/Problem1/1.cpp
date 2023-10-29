@@ -41,11 +41,6 @@ int main () {
                 }
             }
         }
-
-        // for (int k = 0; k < pairs.size(); k++) {
-        //     cout << pairs[k] << " ";
-        // }
-        // cout << numOfPairs << endl;
     }
 
     cout << numOfPairs << endl << sum << endl;
