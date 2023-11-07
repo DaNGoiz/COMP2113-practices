@@ -28,6 +28,22 @@ int main() {
 
 // Please implement the function appendCar() here.
 void appendCar(Car *&head, string id) {
+    // Create a new Car object with the given id
+    Car *newCar = new Car;
+    newCar->id = id;
+    newCar->next = NULL;
+    
+    // If the train is empty, this car becomes the new head
+    if (head == NULL) {
+        head = newCar;
+    } else {
+        // Otherwise, find the last car and append the new car there
+        Car *current = head;
+        while (current->next != NULL) {
+            current = current->next;
+        }
+        current->next = newCar;
+    }
 
 }
 
