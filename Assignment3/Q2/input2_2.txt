@@ -1,0 +1,9 @@
+Insert 21
+Insert 13
+Insert 40
+Insert 6963
+Insert 2023
+Print
+FindMin
+FindMax
+End

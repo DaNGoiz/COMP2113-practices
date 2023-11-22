@@ -1,0 +1,15 @@
+Insert 8
+Insert 10
+Insert 6
+Insert 7
+Find 7
+Find 6
+Find 10
+Find 5
+Find 11
+Insert 5
+Find 5
+Insert 0
+Insert 9999
+Print
+End

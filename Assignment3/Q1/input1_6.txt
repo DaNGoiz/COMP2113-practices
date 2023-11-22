@@ -1,0 +1,7 @@
+InsertStudent 2023001 Chim 98
+InsertStudent 2023002 Jolly 96
+InsertStudent 2023003 Kevin 89
+InsertStudent 2023004 Ruihua 93
+InsertStudent 2023005 Kenneth 89
+InsertStudent 2023006 Ben 99
+Statistics
